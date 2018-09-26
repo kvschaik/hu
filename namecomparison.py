@@ -11,7 +11,7 @@ else:
 if len(name1) == len(name2):
 	print(name1 + " contains as much characters as " + name2)
 else: 
-	print(name1 + " does not contain as much characters as " + name2)
+	print(name1 + " does not contain as much characters as " + name2 )
 
 # Here the difference in characters between the 2 names is calculated
 difference = len(name1) - len(name2)
