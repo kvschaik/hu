@@ -6,8 +6,8 @@ names.append("Rob")
 names.append("David")
 names.append("Nick")
 
-#Ask the user for their name and add it to the names list
-names.append(input("What's your name? "))
+#ask the user for their name and add it to the list. .title() makes the first character an uppercase
+names.append(input("What's your name? ").title())
 
 
 #create a list without any snacks.
@@ -20,8 +20,8 @@ snacks.append("Oreo")
 snacks.append("Twix")
 
 
-#ask the user for their favorite snack and add it to the snacks list.
-snacks.append(input("What's your favorite snack? "))
+#ask the user for their favorite snack .title() makes the first character an uppercase
+snacks.append(input("What's your favorite snack? ").title())
 
 #Index will be the number for the snacks list. snacks[index] = snacks[0]. Then 1 is added to [index] so snacks[index] becomes snacks[1] and so on.
 index = 0
