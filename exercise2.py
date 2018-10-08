@@ -32,5 +32,8 @@ value = value.strip(", ")
 
 
 for key, value in movies.items():
+	if key == "duration":
+		value = f"{value} minutes"
+		
 	print(f'{key.title()}: {value}')
 
